@@ -42,51 +42,51 @@ require_once './header.php';
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                   </div>
@@ -105,19 +105,27 @@ require_once './header.php';
                   <div class="design-article-listing">
                      <div class="topdesign-card">
                         <span>01.</span>
-                        <h3>Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <h3>
+                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h3>
                      </div>
                      <div class="topdesign-card">
                         <span>02.</span>
-                        <h3>Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <h3>
+                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h3>
                      </div>
                      <div class="topdesign-card">
                         <span>03.</span>
-                        <h3>Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <h3>
+                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h3>
                      </div>
                      <div class="topdesign-card">
                         <span>04.</span>
-                        <h3>Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <h3>
+                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h3>
                      </div>
                   </div>
                   <div class="dribbble-call-div">
@@ -148,102 +156,102 @@ require_once './header.php';
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog2.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog2.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog1.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                      <div class="featured-card">
                         <a href="#" target="_blank">
                            <figure>
                               <img class="fimg" src="assets/images/blog/fblog2.png">
-                              <figcaption>
-                                 <div class="content">
-                                    <h3>Learning from my fail project experience</h3>
-                                    <ul>
-                                       <li class="small-regular">2mins read</li>
-                                       <li class="small-regular">Experience</li>
-                                    </ul>
-                                 </div>
-                                 <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
-                              </figcaption>
                            </figure>
+                           <div class="figcaption">
+                              <div class="content">
+                                 <h3>Learning from my fail project experience</h3>
+                                 <ul>
+                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">Experience</li>
+                                 </ul>
+                              </div>
+                              <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
+                           </div>
                         </a>
                      </div>
                   </div>

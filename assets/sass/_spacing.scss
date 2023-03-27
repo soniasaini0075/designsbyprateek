@@ -1,0 +1,8 @@
+@import "_breakpoints.scss";
+
+.page-wrapper {
+	margin-top: 88px;
+	@include for-tablet-only {
+		margin-top: 100px;
+	}
+}

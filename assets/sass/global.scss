@@ -1,0 +1,183 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 16px;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	font-family: "gilroy-regular";
+	background: $background-white;
+	@include phone {
+		overflow-x: hidden;
+	}
+}
+
+.row-no-gutter {
+	margin-right: 0;
+	margin-left: 0;
+
+	[class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 0;
+	li {
+		list-style: none;
+	}
+}
+
+a {
+	text-decoration: none;
+	z-index: 9;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+	&:hover {
+		color: inherit;
+	}
+}
+
+figure {
+	margin-bottom: 0;
+}
+
+.special-hover {
+	position: relative;
+	cursor: url("../images/logo/logo-dark.png"), pointer !important;
+	transition-duration: 0.4s;
+}
+
+.link_ {
+	position: relative;
+}
+
+.has_union_ {
+	position: relative;
+	transition-duration: 0.4s;
+	&:after {
+		transition-duration: 0.4s;
+		position: absolute;
+		content: "";
+		background: url('../images/icons/union.svg');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 24px;
+		height: 24px;
+		top: 0;
+		@include phone {
+			display: none;
+		}
+	}
+	&:hover {
+		transition-duration: 0.4s;
+		&:after {
+			transition-duration: 0.4s;
+			transform: rotate(40deg) translateX(10px);
+		}
+	}
+	&.small_union {
+		&:after {
+			background: url('../images/icons/tiny-union.svg');
+			width: 8px;
+			height: 8px;
+			@include phone {
+				display: block;
+			}
+		}
+	}
+}
+
+.link_ {
+	position: relative;
+	transition-duration: 0.4s;
+	&:before {
+		position: absolute;
+		content: "";
+		background: $white;
+		width: 0;
+		height: 1px;
+		left: 0;
+		bottom: 0;
+		transition-duration: 0.4s;
+	}
+	&:hover {
+		transition-duration: 0.4s;
+		&:before {
+			transition-duration: 0.4s;
+			width: 100%;
+		}
+	}
+}
+
+.dribbble-button-div {
+	transition-duration: 0.4s;
+	.button-link {
+		position: relative;
+		height: 125px;
+		width: 125px;
+		background: $black;
+		display: block;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.icon {
+			margin: 0 auto;
+			animation: unset;
+			height: 34px;
+			width: 34px;
+			transform: rotate(-45deg);
+		}
+		&:before {
+			position: absolute;
+			content: '';
+			background: url('../images/icons/transparent-dribble.svg') no-repeat center center / cover;
+			animation: unset;
+			width: 125px;
+			height: 125px;
+			inset: 0;
+		}
+		&:hover {
+			background: $bo-gradient;
+			&:before {
+				animation: rotation 8s infinite linear;
+			}
+		}
+	}
+	
+	&.dribbble-colored {
+		.button-link {
+			background: $bo-gradient;
+		}
+	}
+}
+
+.slick-dots {
+	padding: 0 22px 0 0;
+	li {
+		margin: 0;
+		button {
+			&:before {
+				font-size: 8px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<svg class="dev-svg" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<path fill="url(#paint0_linear_403_2841)" fill-opacity="0.1" stroke="url(#paint1_linear_403_2841)" stroke-linejoin="round" d="M0.5,40A39.5,39.5 0,1,1 79.5,40A39.5,39.5 0,1,1 0.5,40" class="UDOVyDSw_0"></path>
+<g clip-path="url(#clip0_403_2841)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.0274 20.9999H23.3489V21.6784V54.2499V54.9284H24.0274H33.1056C32.7062 54.5067 32.3402 54.0529 32.012 53.5713H24.706V22.357H55.9816V53.5713H50.0098C49.6815 54.0529 49.3156 54.5067 48.9162 54.9284H56.6602H57.3387V54.2499V21.6784V20.9999H56.6602H24.0274Z" fill="#102FC9" class="UDOVyDSw_1"></path>
+<path d="M41.0316 36.6072H40.99C34.9937 36.6072 30.1328 41.4681 30.1328 47.4643C30.1328 53.4606 34.9937 58.3215 40.99 58.3215H41.0316C47.0279 58.3215 51.8888 53.4606 51.8888 47.4643C51.8888 41.4681 47.0279 36.6072 41.0316 36.6072Z" stroke="#0D0D0D" stroke-width="1.35714" class="UDOVyDSw_2"></path>
+</g>
+<defs>
+<linearGradient id="paint0_linear_403_2841" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="#102FC9"></stop>
+<stop offset="1" stop-color="#FC5602"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_403_2841" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="#102FC9"></stop>
+<stop offset="1" stop-color="#FC5602"></stop>
+</linearGradient>
+<clipPath id="clip0_403_2841">
+<path width="34.6071" height="38" fill="white" transform="translate(23.1953 21)" d="M0 0 L34.6071 0 L34.6071 38 L0 38 Z" class="UDOVyDSw_3"></path>
+</clipPath>
+</defs>
+<style data-made-with="vivus-instant"></style></svg>

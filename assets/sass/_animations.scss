@@ -1,0 +1,250 @@
+.section-animation {
+    animation: section_anim 1s ease-in-out forwards;
+}
+
+.play-animated {
+    &:hover {
+        .gcZIvSrk_0 {
+            stroke-dasharray: 63 65;
+            stroke-dashoffset: 64;
+            animation: gcZIvSrk_draw 1333ms linear 0ms forwards;
+        }
+
+        .gcZIvSrk_1 {
+            stroke-dasharray: 23 25;
+            stroke-dashoffset: 24;
+            animation: gcZIvSrk_draw 1333ms linear 666ms forwards;
+        }
+
+        @keyframes gcZIvSrk_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes gcZIvSrk_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            93.54838709677419% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+    }
+}
+
+.play-icon {
+    &:hover {
+        .play-anim {
+            .CIHAmyBr_0 {
+                stroke-dasharray:1200 1202;
+                stroke-dashoffset:1201;
+                animation:CIHAmyBr_draw 2000ms linear 0ms forwards;
+            }
+            .CIHAmyBr_1 {
+                stroke-dasharray:27 29;
+                stroke-dashoffset:28;
+                animation:CIHAmyBr_draw 2000ms linear 250ms forwards;
+            }
+            .CIHAmyBr_2 {
+                stroke-dasharray:406 408;
+                stroke-dashoffset:407;
+                animation:CIHAmyBr_draw 2000ms linear 500ms forwards;
+            }
+            .CIHAmyBr_3 {
+                stroke-dasharray:66 68;
+                stroke-dashoffset:67;
+                animation:CIHAmyBr_draw 2000ms linear 750ms forwards;
+            }
+            .CIHAmyBr_4 {
+                stroke-dasharray:66 68;
+                stroke-dashoffset:67;
+                animation:CIHAmyBr_draw 2000ms linear 1000ms forwards;
+            }
+            @keyframes CIHAmyBr_draw {
+                100% {
+                    stroke-dashoffset:0;
+                }
+            }
+            @keyframes CIHAmyBr_fade {
+                0% {
+                    stroke-opacity:1;
+                }
+                94.44444444444444% {
+                    stroke-opacity:1;
+                }
+                100% {
+                    stroke-opacity:0;
+                }
+            }
+        }
+    }
+}
+
+.services-card {
+    &.revealed {
+        .ui-design-svg {
+            .HKspAdNn_0{
+                stroke-dasharray:249 251;
+                stroke-dashoffset:250;
+                animation:HKspAdNn_draw 2000ms linear 0ms forwards;
+            }
+            .HKspAdNn_1{
+                stroke-dasharray:173 175;
+                stroke-dashoffset:174;
+                animation:HKspAdNn_draw 2000ms linear 333ms forwards;
+            }
+            .HKspAdNn_2{
+                stroke-dasharray:65 67;
+                stroke-dashoffset:66;
+                animation:HKspAdNn_draw 2000ms linear 666ms forwards;
+            }
+            .HKspAdNn_3{
+                stroke-dasharray:148 150;
+                stroke-dashoffset:149;
+                animation:HKspAdNn_draw 2000ms linear 1000ms forwards;
+            }
+
+            @keyframes HKspAdNn_draw{
+                100%{
+                    stroke-dashoffset:0;
+                }
+            }
+
+            @keyframes HKspAdNn_fade{
+                0%{
+                    stroke-opacity:1;
+                }
+                94.44444444444444%{
+                    stroke-opacity:1;
+                }
+                100%{
+                    stroke-opacity:0;
+                }
+            }
+        }
+        .dev-svg {
+            .UDOVyDSw_0 {
+                stroke-dasharray:249 251;
+                stroke-dashoffset:250;
+                animation:UDOVyDSw_draw 2000ms linear 0ms forwards;
+            }
+            .UDOVyDSw_1 {
+                stroke-dasharray:231 233;
+                stroke-dashoffset:232;
+                animation:UDOVyDSw_draw 2000ms linear 333ms forwards;
+            }
+            .UDOVyDSw_2 {
+                stroke-dasharray:69 71;
+                stroke-dashoffset:70;
+                animation:UDOVyDSw_draw 2000ms linear 666ms forwards;
+            }
+            .UDOVyDSw_3 {
+                stroke-dasharray:146 148;
+                stroke-dashoffset:147;
+                animation:UDOVyDSw_draw 2000ms linear 1000ms forwards;
+            }
+            @keyframes UDOVyDSw_draw {
+                100% {
+                    stroke-dashoffset:0;
+                }
+            }
+            @keyframes UDOVyDSw_fade {
+                0% {
+                    stroke-opacity:1;
+                }
+                94.44444444444444% {
+                    stroke-opacity:1;
+                }
+                100% {
+                    stroke-opacity:0;
+                }
+            }
+        }
+        .full-package-svg {
+            .ricFKWDf_0 {
+                stroke-dasharray:249 251;
+                stroke-dashoffset:250;
+                animation:ricFKWDf_draw 2000ms linear 0ms forwards;
+            }
+            .ricFKWDf_1 {
+                stroke-dasharray:100 102;
+                stroke-dashoffset:101;
+                animation:ricFKWDf_draw 2000ms linear 333ms forwards;
+            }
+            .ricFKWDf_2 {
+                stroke-dasharray:65 67;
+                stroke-dashoffset:66;
+                animation:ricFKWDf_draw 2000ms linear 666ms forwards;
+            }
+            .ricFKWDf_3 {
+                stroke-dasharray:161 163;
+                stroke-dashoffset:162;
+                animation:ricFKWDf_draw 2000ms linear 1000ms forwards;
+            }
+            @keyframes ricFKWDf_draw {
+                100% {
+                    stroke-dashoffset:0;
+                }
+            }
+            @keyframes ricFKWDf_fade {
+                0% {
+                    stroke-opacity:1;
+                }
+                94.44444444444444% {
+                    stroke-opacity:1;
+                }
+                100% {
+                    stroke-opacity:0;
+                }
+            }
+        }
+    }
+}
+
+
+
+.buttons {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    cursor: unset;
+    .mf-cursor-media {
+        position: absolute;
+        width: 48px !important;
+        height: 48px !important;
+        margin: -150px 0 0 -150px;
+    }
+    button {
+        height: 100%;
+        width: 40%;
+        background: transparent;
+        img {
+            opacity: 0;
+        }
+        &#projectNext {
+            position: absolute;
+            z-index: 9;
+            right: 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

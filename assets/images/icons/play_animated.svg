@@ -1,0 +1,31 @@
+<svg class="play-anim"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+    <defs>
+        <clipPath id="__lottie_element_52">
+            <path width="300" height="300" d="M0 0 L300 0 L300 300 L0 300 Z" class="CIHAmyBr_0"></path>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#__lottie_element_52)">
+        <g transform="matrix(2.196969985961914,0,0,2.196969985961914,-0.4111480712890625,-0.412139892578125)" opacity="1" style="display: none;">
+            <g opacity="1" transform="matrix(1,0,0,1,68.5999984741211,68.5999984741211)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2.6" d=" M-0.27000001072883606,66 C2.4649999141693115,66 3.3450000286102295,65.90699768066406 4.99399995803833,65.78399658203125 C12.251999855041504,65.24099731445312 19.18199920654297,63.525001525878906 25.59600067138672,60.82400131225586" class="CIHAmyBr_1"></path>
+            </g>
+        </g>
+        <g style="display: block;" transform="matrix(-2.1755893230438232,-0.30575913190841675,-0.30575913190841675,2.1755893230438232,320.521484375,22.0296630859375)" opacity="1">
+            <g opacity="1" transform="matrix(1,0,0,1,68.5999984741211,68.5999984741211)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2.6" d=" M-0.27000001072883606,66 C2.4649999141693115,66 3.3450000286102295,65.90699768066406 4.99399995803833,65.78399658203125 C39.11199951171875,63.23099899291992 66,34.74800109863281 66,-0.014999999664723873 C66,-36.45800018310547 36.45000076293945,-66 0,-66 C-36.45199966430664,-66 -66,-36.45800018310547 -66,-0.014999999664723873 C-66,33.189998626708984 -41.46799850463867,60.66699981689453 -9.53600025177002,65.28700256347656" class="CIHAmyBr_2"></path>
+            </g>
+        </g>
+        <g transform="matrix(2.196969985961914,0,0,2.196969985961914,141.3341522216797,119.36358642578125)" opacity="0.1" style="display: none;">
+            <g opacity="1" transform="matrix(1,0,0,1,11.600000381469727,13.98900032043457)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2.6" d=" M9,-0.007000000216066837 C9,-0.007000000216066837 -9,11.388999938964844 -9,11.388999938964844 C-9,11.388999938964844 -9,-11.388999938964844 -9,-11.388999938964844 C-9,-11.388999938964844 9,-0.007000000216066837 9,-0.007000000216066837z" class="CIHAmyBr_3"></path>
+            </g>
+        </g>
+        <g style="display: block;" transform="matrix(2.196969985961914,0,0,2.196969985961914,132.3341522216797,119.36358642578125)" opacity="0.9999923266396052">
+            <g opacity="1" transform="matrix(1,0,0,1,11.600000381469727,13.98900032043457)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2.6" d=" M9,-0.007000000216066837 C9,-0.007000000216066837 -9,11.388999938964844 -9,11.388999938964844 C-9,11.388999938964844 -9,-11.388999938964844 -9,-11.388999938964844 C-9,-11.388999938964844 9,-0.007000000216066837 9,-0.007000000216066837z" class="CIHAmyBr_4"></path>
+            </g>
+        </g>
+    </g>
+    <style data-made-with="vivus-instant"></style>
+</svg>

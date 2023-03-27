@@ -1,0 +1,99 @@
+footer {
+	&.footer {
+		background: url(../images/awards-winning-creations-bg.svg);
+		color: $white;
+		padding: 100px 0 0 0;
+		position: relative;
+		z-index: 9;
+		overflow: hidden;
+		@include phone {
+			padding: 40px 0 0 0;
+		}
+		&:after {
+			position: absolute;
+			content: "";
+			background: url('../images/icons/brand-gradient.svg');
+			background-size: cover;
+			background-position: center center;
+			bottom: 60px;
+			left: 0;
+			height: 100%;
+			width: 800px;
+			z-index: 1;
+			@include phone {
+				width: 100%;
+				bottom: 0;
+			}
+		}
+		.container-wrapper {
+			position: relative;
+			z-index: 99;
+			h1 {
+				padding-bottom: 56px;
+				margin-bottom: 40px;
+				border-bottom: 1px solid rgba($white, 0.1);
+				@include phone {
+					padding-bottom: 24px;
+					margin-bottom: 24px;
+					font-size: 24px;
+				}
+				small {
+					display: block;
+					font-size: 16px;
+					line-height: 150%;
+				}
+			}
+			.footer-social {
+				padding-bottom: 54px;
+				position: relative;
+				z-index: 9;
+				@include phone {
+					padding-bottom: 48px;
+				}
+				>p {
+					margin-bottom: 8px;
+					color: $white;
+				}
+				ul {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+					@include phone {
+						display: grid;
+						grid-template-columns: repeat(3,1fr);
+						align-items: flex-start;
+						grid-row-gap: 8px;
+					}
+					li {
+						margin-right: 32px;
+						&:last-of-type {
+							margin-right: 0;
+						}
+					}
+				}
+			}
+			.dribbble-button-div {
+				position: absolute;
+				right: 5%;
+				top: 0;
+				transform: translateY(65%);
+				@include phone {
+					display: none;
+				}
+			}
+		}
+		.copyright-footer {
+			background-image: url('../images/copyright-bg.svg');
+			background-color: $gray-black;
+			padding: 20px 0;
+			position: relative;
+			z-index: 2;
+			@include phone {
+				padding: 14px 0;
+			}
+			p {
+				color: $white;
+			}
+		}
+	}
+}

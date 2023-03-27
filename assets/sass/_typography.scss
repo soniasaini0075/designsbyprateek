@@ -1,0 +1,110 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "gilroy-bold";
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 140%;
+  font-family: "gilroy-extrabold";
+  @include phone {
+    font-size: 28px;
+  }
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 150%;
+  @include phone {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 150%;
+  @include phone {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 150%;
+  @include phone {
+    font-size: 18px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 150%;
+  @include phone {
+    font-size: 18px;
+  }
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: "gilroy-regular";
+}
+
+p {
+  font-family: "gilroy-regular";
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba($black, 0.8);
+}
+
+.small-upper {
+	font-family: "gilroy-bold";
+	font-size: 15px;
+	line-height: 150%;
+	text-transform: uppercase;
+}
+
+.small-regular {
+	font-family: "gilroy-regular";
+	font-size: 14px;
+	line-height: 150%;
+  color: $black;
+}
+
+.gilroy-extrabold {
+  font-family: "gilroy-semibold";
+}
+
+.gilroy-bold {
+  font-family: "gilroy-bold";
+}
+
+.gilroy-semibold {
+  font-family: "gilroy-semibold";
+}
+
+.gilroy-regular {
+  font-family: "gilroy-regular";
+}
+
+.gilroy-light {
+  font-family: "gilroy-light";
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}

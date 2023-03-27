@@ -1,0 +1,421 @@
+.stats-dbp-wrap {
+	.visual-glance-slider {
+		width: 744px;
+		height: 700px;
+		@include phone {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.slides-numbers {
+		display: block;
+		position: absolute;
+		right: 64px;
+		bottom: 32px;
+		@include phone {
+			right: 64px;
+			bottom: unset;
+			top: 253px;
+		}
+		span {
+			font-size: 16px;
+			line-height: 160%;
+			color: $white;
+			&.slash {
+				font-family: "gilroy-bold";
+			}
+			&.active {
+				font-family: "gilroy-bold";
+			}
+			&.total {
+				font-family: "gilroy-regular";
+			}
+		}
+	}
+	.slick-arrow {
+		top: unset;
+		&.slick-next {
+			right: 32px;
+			bottom: 26px;
+			&:before {
+				content: url(../images/right.svg);
+				opacity: 1;
+			}
+		}
+		&.slick-prev {
+			left: unset;
+			right: 130px;
+			bottom: 26px;
+			z-index: 9;
+			&:before {
+				content: url(../images/left.svg);
+				opacity: 1;
+			}
+		}
+		&.slick-disabled {
+			display: none !important;
+		}
+	}
+}
+
+
+
+section {
+	&.dbps-hero {
+		.container-wrapper {
+			.hero-title {
+				.mf-cursor:before {
+					border-radius: 0% !important;
+				}
+
+				.mf-cursor-media img,
+				.mf-cursor-media video {
+					border-radius: 0% !important;
+				}
+
+				.mf-cursor-media-box {
+					border-radius: 0% !important;
+				}
+			}
+		}
+	}
+	&.project-plan-wrapper {
+		background: $background-blue;
+		position: relative;
+		.slick-dots {
+			bottom: -40px;
+		}
+		.shadow {
+			position: absolute;
+			bottom: 0;
+			background: linear-gradient(180deg, rgba(13, 13, 13, 0) 0%, #0D0D0D 79.69%);
+			opacity: 0.05;
+			height: 33px;
+			width: 100%;
+			@include phone {
+				display: none;
+			}
+		}
+		.container-wrapper {
+			padding: 64px 0 0 0;
+			@include phone {
+				padding: 64px 0;
+			}
+			h1 {
+				width: 633px;
+				margin: 0 auto;
+				margin-bottom: 64px;
+				@include phone {
+					width: 100%;
+				}
+				small {
+					display: block;
+					display: block;
+					margin-top: 8px;
+					font-size: 16px;
+				}
+			}
+			.phases-wrapper {
+				.phase__ {
+					width: 808px;
+					@include phone {
+						width: 100%;
+					}
+					transition-duration: 0.4s;
+					.progressbar-wrap {
+						transition-duration: 0.4s;
+						@include phone {
+							margin-bottom: 16px;
+						}
+						.label-progress-bar {
+							transition-duration: 0.4s;
+							font-weight: 700;
+							font-size: 22px;
+							line-height: 150%;
+							color: $black;
+							font-family: "gilroy-bold";
+							margin-bottom: 8px;
+							display: block;
+						}
+						.modern-bar {
+							transition-duration: 0.4s;
+							width: 100%;
+							height: 10px;
+							background-image: $light-bo;
+						}
+					}
+					.phases-dist {
+						margin-top: 8px;
+						display: grid;
+						grid-gap: 24px;
+						grid-template-columns: repeat(4,1fr);
+						align-items: flex-start;
+						@include phone {
+							grid-template-columns: repeat(2,1fr);
+							grid-gap: 16px;
+						}
+						.phase-declaration {
+							p {
+								transition-duration: 0.4s;
+								margin-bottom: 24px;
+								font-size: 16px;
+								line-height: 150%;
+								font-family: "gilroy-bold";
+								color: rgba($black, 0.8);
+								@include phone {
+									margin-bottom: 8px;
+								}
+							}
+							.phase-card {
+								border: 1px solid $background-white;
+								height: 80px;
+								padding: 16px;
+								background: #fff;
+								display: flex;
+								justify-content: flex-start;
+								align-items: flex-start;
+								p {
+									margin-bottom: 0;
+									text-transform: capitalize;
+									span {
+										@include phone {
+											display: none;
+										}
+									}
+								}
+							}
+						}
+					}
+					&.phase--one {
+						margin-bottom: 48px;
+					}
+					&.phase--two {
+						margin-bottom: 80px;
+						margin-left: auto;
+					}
+					&:hover {
+						transition-duration: 0.4s;
+						.progressbar-wrap {
+							transition-duration: 0.4s;
+							.modern-bar {
+								transition-duration: 0.4s;
+								background-image: $bo-gradient;
+							}
+						}
+						.phases-dist {
+							transition-duration: 0.4s;
+							.phase-declaration {
+								transition-duration: 0.4s;
+								p {
+									transition-duration: 0.4s;
+									color: $black;
+								}
+							}
+						}
+					}
+				}
+			}
+			.main-phases-details {
+				.content-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					align-items: flex-end;
+					@include phone {
+						display: block;
+						grid-template-columns: unset;
+						align-items: unset;
+					}
+					.content-card {
+						h2 {
+							color: $dark-blue;
+							position: relative;
+							margin-bottom: 32px;
+							&:before {
+								position: absolute;
+								content: "";
+								background: $dark-blue;
+								width: 2px;
+								height: 40px;
+								left: -24px;
+								top: 0;
+							}
+							small {
+								display: block;
+								font-size: 22px;
+								line-height: 150%;
+								color: $black;
+							}
+						}
+						ul {
+							li {
+								margin-bottom: 24px;
+								.ca-tab {
+									p {
+										&.gilroy-bold {
+											margin-bottom: 4px;
+											font-size: 16px;
+											line-height: 150%;
+											color: rgba($black, 0.8);
+										}
+									}
+									.c-g {
+										display: grid;
+										grid-template-columns: repeat(3, 1fr);
+										align-items: flex-start;
+										span {
+											font-size: 14px;
+											line-height: 150%;
+											color: rgba($black, 0.8);
+										}
+									}
+								}
+								&:last-of-type {
+									margin-bottom: 0;
+								}
+							}
+						}
+						&.competitor-analysis {
+							margin-right: 48px;
+							min-height: 357px;
+							width: 354px;
+							background: $white;
+							padding: 24px;
+							border: 1px solid $background-white;
+							border-bottom: 0;
+							@include phone {
+								height: auto;
+								width: 100%;
+								margin-right: 0;
+								border-bottom: 1px solid $background-white;
+							}
+						}
+						&.discovery {
+							padding: 24px 16px 0 24px;
+							background: $white;
+							border: 1px solid $background-white;
+							border-bottom: 0;
+							margin-right: 104px;
+							@include phone {
+								height: auto;
+								width: 100%;
+								margin-right: 0;
+								border-bottom: 1px solid $background-white;
+							}
+						}
+						&.survey-questions {
+							padding: 0 0 48px 0;
+							@include phone {
+								height: auto;
+								max-width: 100%;
+								margin-right: 0;
+								padding: 0 24px;
+							}
+							h2 {
+								color: $black;
+								position: relative;
+								margin-bottom: 24px;
+								&:before {
+									content: unset;
+								}
+							}
+							.questions {
+								.ques__ {
+									margin-bottom: 40px;
+									>.gilroy-bold {
+										margin-bottom: 8px;
+										font-size: 16px;
+										line-height: 150%;
+										color: rgba($black, 0.8);
+										span {
+											text-decoration: underline;
+										}
+									}
+									.labels {
+										display: flex;
+										justify-content: space-between;
+										align-items: center;
+										h2 {
+											margin-bottom: 0;
+										}
+									}
+									.progressbar-wrap {
+										background-image: $light-bo;
+										.modern-bar {
+											transition-duration: 0.4s;
+											width: 100%;
+											height: 10px;
+											background-image: $bo-gradient;
+										}
+									}
+									&:last-of-type {
+										margin-bottom: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.child {
+	width: 100%;
+	height: 100%;
+}
+
+.progress {
+	color: white;
+	text-align: center;
+	line-height: 16px;
+	font-size: 16px;
+	animation-direction: reverse;
+	background: #e5405e;
+	background: -moz-linear-gradient(90deg, #102FC9 0%, #FC5602 100%);
+	background: -webkit-linear-gradient(90deg, #102FC9 0%, #FC5602 100%);
+	background: linear-gradient(90deg, #102FC9 0%, #FC5602 100%);
+}
+
+.shrinker {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+.timelapse {
+	animation-name: timelapse;
+	animation-fill-mode: forwards;
+	animation-duration: 5s;
+	animation-timing-function: cubic-bezier(.86, .05, .4, .96);
+}
+
+@keyframes timelapse {
+	0% {
+		width: 100%;
+	}
+
+	100% {
+		width: 0%;
+	}
+}
+
+header {
+	&.dark {
+		.credits-top {
+			.btn-link {
+				.btn-click {
+					color: $white;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+

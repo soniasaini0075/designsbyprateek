@@ -55,7 +55,7 @@
                </div>
             </a>
             <div class="readmore-div" data-reveal="true">
-               <a href="#" target="_blank" class="has_union_ small_union">
+               <a href="/blogs" class="has_union_ small_union">
                   <img src="assets/images/icons/read-all-bttn.svg">
                   <span class="small-upper">Read All</span>
                </a>

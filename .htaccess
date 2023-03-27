@@ -1,0 +1,16 @@
+#adding your own handler
+ErrorDocument 404 "Oops! We can't find that pesky file. Sorry."
+ErrorDocument 404 "<html><body bgcolor=#ffffff><h1> You got 404 buddy </h1> </body> </html>"
+ErrorDocument 404 notfounderror.php
+ErrorDocument 404 "Oops! We can't find that pesky file. Sorry."
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+</IfModule>
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule \.php$ - [R=404]
+ErrorDocument 404 http://designsbyprateek.com/notfounderror.php

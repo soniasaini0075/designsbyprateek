@@ -13,6 +13,17 @@ body {
 	}
 }
 
+.fixed-dribble {
+	position: fixed;
+	right: 10px;
+	bottom: 7%;
+	z-index: 9;
+	display: none;
+	@include phone {
+		display: block;
+	}
+}
+
 .row-no-gutter {
 	margin-right: 0;
 	margin-left: 0;

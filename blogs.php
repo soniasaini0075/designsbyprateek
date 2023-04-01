@@ -13,7 +13,7 @@ require_once './header.php';
                <div class="content-grid">
                   <div class="content">
                      <h1>Always hunger for knowledge check out my articles</h1>
-                     <p>Find articles, stories of my own experience, and knowledge on design  </p>
+                     <p>Find articles, stories of my own experience, and knowledge on design</p>
                   </div>
                   <div class="visual-glance">
                      <figure>
@@ -45,10 +45,10 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Eight most popular design systems for UX Designers in 2022</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
-                                    <li class="small-regular">Experience</li>
+                                    <li class="small-regular">15 mins read</li>
+                                    <li class="small-regular">UX Design</li>
                                  </ul>
                               </div>
                               <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
@@ -62,10 +62,10 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>6 ways to push yourself to think “outside of the box.”</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
-                                    <li class="small-regular">Experience</li>
+                                    <li class="small-regular">12 mins read</li>
+                                    <li class="small-regular">Design</li>
                                  </ul>
                               </div>
                               <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
@@ -79,10 +79,10 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Minimalism “Keep It, Minimalist”</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
-                                    <li class="small-regular">Experience</li>
+                                    <li class="small-regular">10 mins read</li>
+                                    <li class="small-regular">Design</li>
                                  </ul>
                               </div>
                               <img class="icon_" src="assets/images/icons/tiny-union-black.svg">
@@ -99,33 +99,25 @@ require_once './header.php';
             <div class="container">
                <div class="heading-wrap">
                   <h2>Top Design Topics</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non tempus sed cras sit mi at. Lorem ipsum dolor sit amet cras sit .</p>
+                  <p>Recent happenings, design topics and design advice!</p>
                </div>
                <div class="topdesign-articles-wrapper">
                   <div class="design-article-listing">
                      <div class="topdesign-card">
                         <span>01.</span>
-                        <h3>
-                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h3>
+                        <h3>How to design the most effective and ideal workflow for UI Designer</h3>
                      </div>
                      <div class="topdesign-card">
                         <span>02.</span>
-                        <h3>
-                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h3>
+                        <h3>Don't Make Me Think, Revisited: A Common Sense Approach to Usability Testing</h3>
                      </div>
                      <div class="topdesign-card">
                         <span>03.</span>
-                        <h3>
-                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h3>
+                        <h3>User Experience or UX Design the crucial aspect of any digital product.</h3>
                      </div>
                      <div class="topdesign-card">
                         <span>04.</span>
-                        <h3>
-                           Synthetic to ReaLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h3>
+                        <h3>9 Important Process that should be followed for UI UX Design</h3>
                      </div>
                   </div>
                   <div class="dribbble-call-div">
@@ -159,9 +151,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>The UX design process in 5 stages</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">10 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>
@@ -176,9 +168,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Product Design & How it Works</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">8 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>
@@ -193,9 +185,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Benefits of Figma for the UI/UX Designers</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">15 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>
@@ -210,9 +202,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Web Design Layout: Space and function</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">10 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>
@@ -227,9 +219,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>Things that every designer need to know about the user</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">12 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>
@@ -244,9 +236,9 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Learning from my fail project experience</h3>
+                                 <h3>The Importance of Design in Today's World</h3>
                                  <ul>
-                                    <li class="small-regular">2mins read</li>
+                                    <li class="small-regular">8 mins read</li>
                                     <li class="small-regular">Experience</li>
                                  </ul>
                               </div>

@@ -1,3 +1,26 @@
+$(document).on('ready', function() {  
+  var winHeight = $(window).height(), 
+  docHeight = $(document).height(),
+  progressBar = $('progress'),
+  max, value;
+  max = docHeight - winHeight;
+  progressBar.attr('max', max);
+  $(document).on('scroll', function(){
+   value = $(window).scrollTop();
+   progressBar.attr('value', value);
+});
+});
+
+
+if ($(window).width() < 768) {
+    const readingProgress = document.querySelector('#reading-progress-fill');
+    const footerHeight = 250;
+    document.addEventListener('scroll', function(e) {
+      let w = (document.body.scrollTop || document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight - footerHeight) * 100;
+      readingProgress.style.setProperty('width', w + '%');
+  });
+}
+
 setTimeout(function() {
     document.getElementsByClassName("page-loader")[0].className = "page-loader loading";
 }, 0);

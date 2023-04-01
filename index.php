@@ -26,12 +26,6 @@ require_once './header.php';
          <?php include './include/testimonials.php'; ?>
          <?php include './include/featured-blogs.php'; ?>
       </div>
-
-      <div class="fixed-dribble">
-         <a href="https://dribbble.com/designbyprateek" target="_blank">
-            <img src="assets/images/icons/fixed-dribble.svg">
-         </a>
-      </div>
    </div>
 </div>
 

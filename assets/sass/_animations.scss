@@ -1,3 +1,8 @@
+// @include for-tablet-only {}
+// @include phone {}
+
+// style={{ display: "none" }}
+
 .section-animation {
     animation: section_anim 1s ease-in-out forwards;
 }

@@ -1,6 +1,6 @@
 section {
 	&.podcast-webinar-wrapper {
-		background-image: url('../images/home/podcast-bg.png');
+		background-image: url('../images/home/podcast-bg.svg');
 		background-color: $black;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -219,10 +219,10 @@ section {
 						}
 						.pod-illustration {
 							position: absolute;
-							right: -36px;
-							bottom: -5px;
-							width: 385px;
-							height: 248px;
+							right: -93px;
+							bottom: -78px;
+							width: 397px;
+							height: 402px;
 							@include for-tablet-only {}
 							@include phone {
 								width: 100%;

@@ -38,8 +38,8 @@
                <div class="latest-podcast-card">
                   <div class="tags-podcast">Nickelfox | Podcast | 2023</div>
                   <h2>Connecting with Humanity:<br/> The Power of Empathy in Human Computer Interaction</h2>
-                  <p>Meir Benezra, founder of Design Playing and a seasoned pro in the field of product design. He spilled the beans on how to<br/> take your designs from "meh" to "marvelous" and will answered many queries.</p>
-                  <img class="pod-illustration" src="assets/images/home/latest-podcast-illustration.svg">
+                  <p>Meir Benezra, founder of Design Playing and a seasoned pro in the field of product design. He spilled the<br/> beans on how to take your designs from "meh" to "marvelous" and will answered many queries.</p>
+                  <img class="pod-illustration" src="assets/images/home/latest-podcast-illustration.png">
                   <div class="speakers-details">
                      <div class="speaker">
                         <figure>

@@ -1,14 +1,27 @@
 .stats-wrapper {
 	background: $background-blue;
-	background-image: url('../images/home/granny.svg');
-	background-size: cover;
+	background-image: url('../images/home/pods-person.png');
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
 	padding: 80px 0 104px 0;
 	@include for-tablet-only {}
 	@include phone {
+		height: 100%;
 		padding: 40px 0 48px 0;
-		background-position: left;
+		background-position: bottom;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: "";
+			background: white;
+			filter: blur(6px);
+			height: 48px;
+			width: 100%;
+			bottom: 255px;
+			right: 0;
+			left: 0;
+		}
 	}
 	.container-wrapper {
 		.intro {
@@ -90,6 +103,8 @@
 				gap: 0;
 				@include for-tablet-only {}
 				@include phone {
+					background: #F9FAFA;
+					padding-bottom: 24px;
 					gap: 24px;
 					grid-template-columns: repeat(2,1fr);
 				}

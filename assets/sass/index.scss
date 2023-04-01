@@ -1,15 +1,5 @@
 .homepage-container {
 	position: relative;
-	.fixed-dribble {
-		position: fixed;
-		right: 10px;
-		bottom: 7%;
-		z-index: 9;
-		display: none;
-		@include phone {
-			display: block;
-		}
-	}
 	section {
 		&.dbps-hero {
 			background: $background-white;

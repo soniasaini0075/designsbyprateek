@@ -1,5 +1,9 @@
 </div>
-
+<div class="fixed-dribble">
+	<a href="https://dribbble.com/designbyprateek" target="_blank">
+		<img src="assets/images/icons/fixed-dribble.svg">
+	</a>
+</div>
 <footer class="footer" data-cursor="-inverse">
 	<div class="container">
 		<div class="container-wrapper">
@@ -32,7 +36,12 @@
 		</div>
 	</div>
 	<div class="copyright-footer">
-		<p class="text-center small-regular">© 2022 Prateek Saini, All right reserved</p>
+		<div class="container">
+			<p class="small-regular">&copy <?php echo date('Y'); ?> Prateek Saini, All right reserved</p>
+			<p class="small-regular">
+				Code by <a href="https://soniasaini.in/" target="_blank">Sonia</a>
+			</p>
+		</div>
 	</div>
 </footer>
 
@@ -49,85 +58,86 @@
 	</div>
 </div>
 
-	<script src="assets/vendors/jquery-3.3.1.min.js" type="text/javascript"></script>
-	<script src="assets/vendors/aos/js/aos.js" charset="utf-8"></script>
-	<script src="assets/vendors/splide/js/splide.js" charset="utf-8"></script>
-	<script src="assets/vendors/splide/js/splide.min.js" charset="utf-8"></script>
-	<script src="assets/vendors/splide/js/splide-extension-intersection.min.js" charset="utf-8"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
-	<script src="assets/vendors/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-	<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
-	<script>
-		var cursor = new MouseFollower();
-	</script>
-	<script src="assets/js/bundle.js" type="text/javascript"></script>
-	<script src="assets/js/main.js" type="text/javascript"></script>
-	<script>
-		var dom = new Splide("#dom-slider", {
-			type: "slide",
-			autoheight: true,
-			autoWidth: true,
-			isNavigation: true,
-			pauseOnHover: false,
-			rewind: true,
-			interval: 5000,
-			pagination: false,
-			arrows: false,
-			gap: 25,
-		}).mount();
+<script src="assets/vendors/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="assets/vendors/aos/js/aos.js" charset="utf-8"></script>
+<script src="assets/vendors/splide/js/splide.js" charset="utf-8"></script>
+<script src="assets/vendors/splide/js/splide.min.js" charset="utf-8"></script>
+<script src="assets/vendors/splide/js/splide-extension-intersection.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+<script>
+	var cursor = new MouseFollower();
+</script>
+<script src="assets/js/bundle.js" type="text/javascript"></script>
+<script src="assets/js/main.js" type="text/javascript"></script>
+<script>
+	var dom = new Splide("#dom-slider", {
+		type: "slide",
+		autoheight: true,
+		autoWidth: true,
+		isNavigation: true,
+		pauseOnHover: false,
+		rewind: true,
+		interval: 5000,
+		pagination: false,
+		arrows: false,
+		gap: 25,
+	}).mount();
 
-		var main = new Splide("#images-slider", {
-			type: "fade",
-			autoplay: "false",
-			intersection: {
-				inView: {
-					autoplay: true,
-				},
-				outView: {
-					autoplay: false,
-				},
+	var main = new Splide("#images-slider", {
+		type: "fade",
+		autoplay: "false",
+		intersection: {
+			inView: {
+				autoplay: true,
 			},
-			perPage: 1,
-			rewind: true,
-			perMove: 1,
-			pagination: false,
-			arrows: false,
-		});
-		main.sync(dom).mount(window.splide.Extensions);
+			outView: {
+				autoplay: false,
+			},
+		},
+		perPage: 1,
+		rewind: true,
+		perMove: 1,
+		pagination: false,
+		arrows: false,
+	});
+	main.sync(dom).mount(window.splide.Extensions);
 
-		var count = new Splide("#counter-slider", {
-			type: "fade",
-			pagination: false,
-			arrows: true,
-			perPage: 1,
-			perMove: 1,
-			gap: 5,
-			drag: false,
-		});
-		count.sync(dom).mount();
+	var count = new Splide("#counter-slider", {
+		type: "fade",
+		pagination: false,
+		arrows: true,
+		perPage: 1,
+		perMove: 1,
+		gap: 5,
+		drag: false,
+	});
+	count.sync(dom).mount();
 
-		var cont = new Splide("#content-slider", {
-			type: "slide",
-			perPage: 1,
-			perMove: 1,
-			arrows: false,
-			gap: 15,
-			pagination: false,
-		});
-		cont.sync(dom).mount();
-	</script>
-	<script type="text/javascript">
-		const el = document.querySelector('.my-video-element');
+	var cont = new Splide("#content-slider", {
+		type: "slide",
+		perPage: 1,
+		perMove: 1,
+		arrows: false,
+		gap: 15,
+		pagination: false,
+	});
+	cont.sync(dom).mount();
+</script>
+<script type="text/javascript">
+	const el = document.querySelector('.my-video-element');
 
-		el.addEventListener('mouseenter', () => {
-			cursor.setVideo('assets/images/web-hero.mp4');
-		});
+	el.addEventListener('mouseenter', () => {
+		cursor.setVideo('assets/images/web-hero.mp4');
+	});
 
-		el.addEventListener('mouseleave', () => {
-			cursor.removeVideo();
-		}); 
-	</script>
-	<script></script>
+	el.addEventListener('mouseleave', () => {
+		cursor.removeVideo();
+	}); 
+</script>
+<script></script>
 </body>
 </html>

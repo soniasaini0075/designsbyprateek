@@ -127,13 +127,13 @@ require_once './header.php';
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="#" target="_blank">
-                                          <img class="social-icon" src="assets/images/icons/social/twitter-small.svg">
+                                       <a href="https://www.instagram.com/designbyprateek/" target="_blank">
+                                          <img class="social-icon" src="assets/images/icons/social/instagram-small.svg">
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="#" target="_blank">
-                                          <img class="social-icon" src="assets/images/icons/social/facebook-small.svg">
+                                       <a href="https://medium.com/@designbyprateek" target="_blank">
+                                          <img class="social-icon" src="assets/images/icons/social/medium-small.svg">
                                        </a>
                                     </li>
                                  </ul>

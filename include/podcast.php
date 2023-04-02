@@ -8,8 +8,8 @@
       <div class="container-wrapper">
          <div class="content-grid">
             <div class="heading-wrap">
-               <span>Podcast<br/> Webinar</span>
-               <p>I talk about Design, management,<br/> methods in design on Youtube and<br/> making Podcast.</p>
+               <span>Sharing the spotlight</span>
+               <p>Inspiring conversations with the<br/> best & brightest. Methods in design on<br/> Youtube and making Podcast & design videos.</p>
             </div>
             <div class="podcast-visual">
                <img src="assets/images/icons/yt-podcast.svg" class="yt-icon" data-aos="zoom-in" data-aos-delay="500">
@@ -74,7 +74,7 @@
                         <figcaption>
                            <div class="tags-podcast">Nickelfox | 2022</div>
                            <h2>How to Create User Personas for your Business and for your client?</h2>
-                           <p>Meir Benezra, founder of Design Playing and a seasoned pro in the field of product design.</p>
+                           <p>Helps designers build an understanding and empathy towards the end-users.</p>
                            <div class="speaker">
                               <figure>
                                  <img class="speaker-thumbnail" src="assets/images/home/speakers/prateek-saini.png">
@@ -99,7 +99,7 @@
                         <figcaption>
                            <div class="tags-podcast">Dexignare | 2020</div>
                            <h2>The Fundamentals of Design & Various Career Opportunities</h2>
-                           <p>Meir Benezra, founder of Design Playing and a seasoned pro in the field of product design.</p>
+                           <p>Talk about the basic fundamentals like Line, Shape, Form, Texture, Balance, The rule of thirds.</p>
                            <div class="speaker">
                               <figure>
                                  <img class="speaker-thumbnail" src="assets/images/home/speakers/prateek-saini.png">

@@ -15,11 +15,13 @@ require_once './header.php';
       </div>
 
       <?php include './include/project-plan.php'; ?>
-      <?php include './include/podcast.php'; ?>
+      <?php include './include/awards.php'; ?>
+      
       <?php include './include/stats.php'; ?>
 
       <?php include './include/work.php'; ?>
-      <?php include './include/awards.php'; ?>
+      <?php include './include/podcast.php'; ?>
+      
 
       <div class="combined-section combined-section-two revealer white-section">
          <?php include './include/social-strip.php'; ?>

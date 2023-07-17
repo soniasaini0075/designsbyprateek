@@ -30,6 +30,10 @@
                            </li>
                         </ul>
                      </div>
+                     <a class="bttn bttn-primary" href="/zeg.php" target="_blank">
+                        <span>View Case Study</span>
+                        <img src="assets/images/icons/union-white.svg">
+                     </a>
                   </div>
                   <div class="visual-glance zeg-visual">
                      <figure>

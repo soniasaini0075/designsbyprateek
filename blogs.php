@@ -45,7 +45,7 @@ require_once './header.php';
                            </figure>
                            <div class="figcaption">
                               <div class="content">
-                                 <h3>Eight most popular design systems for UX Designers in 2022</h3>
+                                 <h3>Eight most popular design systems for UX Designers</h3>
                                  <ul>
                                     <li class="small-regular">15 mins read</li>
                                     <li class="small-regular">UX Design</li>
@@ -140,7 +140,7 @@ require_once './header.php';
             <div class="container">
                <div class="heading-wrap">
                   <h2>Other Articles</h2>
-                  <p>My top 3 posts about my experience on design world</p>
+                  <p>My other articles about my experience on design world</p>
                </div>
                <div class="f-articles-wrapper">
                   <div class="featured-article-listing">

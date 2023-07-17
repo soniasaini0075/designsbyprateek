@@ -218,9 +218,11 @@
     position: absolute;
     inset: 0;
     height: 100%;
-    width: 100%;
+    right: 0;
+    width: 50%;
     z-index: 9;
     cursor: unset;
+    margin-left: auto;
     .mf-cursor-media {
         position: absolute;
         width: 48px !important;
@@ -238,6 +240,7 @@
             position: absolute;
             z-index: 9;
             right: 0;
+            display: none;
         }
     }
 }

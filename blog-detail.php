@@ -16,8 +16,7 @@ require_once './header.php';
                      <span>Back to Blogs</span>
                   </a>
                   <div class="title-other-details">
-                     <h1>Eight most popular design systems for UX Designers in 2022</h1>
-                     <p>Find articles, stories of my own experience, and knowledge on design</p>
+                     <h1>Eight most popular design systems for UX Designers</h1>
                   </div>
                   <div class="author">
                      <figure>
@@ -116,8 +115,8 @@ require_once './header.php';
                         <div class="sidebar-div">
                            <div class="sidebar-content">
                               <div class="content">
-                                 <h3>Design Work Design Work Design Work Design Work</h3>
-                                 <p>My top 3 posts about my experience on design world</p>
+                                 <h3>Creating stars in the digital universe ✨</h3>
+                                 <p>Let's make something trendy and cool!</p>
                               </div>
                               <div class="sidebar-social">
                                  <ul>

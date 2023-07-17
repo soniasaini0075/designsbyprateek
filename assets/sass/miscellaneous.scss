@@ -14,7 +14,7 @@ section {
 				.featured-article-listing {
 					display: grid;
 					grid-template-columns: repeat(3,1fr);
-					align-items: center;
+					align-items: flex-start;
 					justify-content: flex-start;
 					gap: 48px;
 					@include for-tablet-only {}
@@ -35,7 +35,7 @@ section {
 									content: "";
 									top: 0;
 									right: 0;
-									background: $background-blue;
+									background: $white;
 									border-right: solid 50px transparent;
 									border-bottom: solid 45px $black;
 								}
@@ -50,14 +50,16 @@ section {
 								}
 							}
 							.figcaption {
-								display: flex;
-								justify-content: flex-start;
+								display: grid;
+								grid-template-columns: 80% 20%;
 								align-items: flex-start;
 								margin-top: 16px;
+								justify-items: end;
 								.content {
 									@include for-tablet-only {}
 									@include phone {
 										width: 90%;
+										justify-items: flex-start;
 									}
 									h3 {
 										margin-bottom: 8px;

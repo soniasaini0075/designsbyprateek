@@ -1,4 +1,4 @@
-$(document).on('ready', function() {  
+$(document).on('ready', function() {
   var winHeight = $(window).height(), 
   docHeight = $(document).height(),
   progressBar = $('progress'),
@@ -9,6 +9,26 @@ $(document).on('ready', function() {
    value = $(window).scrollTop();
    progressBar.attr('value', value);
 });
+
+  $('.sliderLaws').slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      cssEase: 'ease-in-out',
+      speed: 700,
+  });
+
+  $("#next_value").on("click", function(e) {
+      e.preventDefault();
+      $(".sliderLaws").slick("slickNext");
+  });
+  $("#prev_value").on("click", function(e) {
+      e.preventDefault();
+      $(".sliderLaws").slick("slickPrev");
+  });
+
 });
 
 

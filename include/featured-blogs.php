@@ -3,53 +3,50 @@
       <div class="container-wrapper">
          <h1 data-reveal="true">Latest Blog Posts</h1>
          <div class="featured-blogs-grid">
-            <a href="https://medium.com/@designbyprateek/learnings-from-my-failures-2e6644b7cf62" class="single-blog-link" data-reveal="true" target="_blank">
+            <a href="https://wokelo.ai/" class="single-blog-link" data-reveal="true" target="_blank">
                <div class="blog_">
                   <figure>
-                     <img src="assets/images/blog/blog1.png">
+                     <img src="assets/images/blog/live1.png">
                      <figcaption class="text-center">
-                        <span class="tags_ small-upper gilroy-regular">Experience</span>
+                        <span class="tags_ small-upper gilroy-regular">AI</span>
                      </figcaption>
                   </figure>
                   <div class="content text-center">
-                     <h3>Learning from my fail project experience</h3>
+                     <h3>Wokelo.ai</h3>
                      <ul class="tags-list">
-                        <li>2 mins read</li>
-                        <li>Experience</li>
+                        <li>Business research and analysis in minutes</li>
                      </ul>
                   </div>
                </div>
             </a>
-            <a href="https://medium.com/@designbyprateek/the-art-of-adding-images-in-your-ui-design-924519d2b591" class="single-blog-link" data-reveal="true" target="_blank">
+            <a href="https://podcraft.app/" class="single-blog-link" data-reveal="true" target="_blank">
                <div class="blog_">
                   <figure>
-                     <img src="assets/images/blog/blog2.png">
+                     <img src="assets/images/blog/live2.png">
                      <figcaption class="text-center">
-                        <span class="tags_ small-upper gilroy-regular">UX/UI Design</span>
+                        <span class="tags_ small-upper gilroy-regular">streaming</span>
                      </figcaption>
                   </figure>
                   <div class="content text-center">
-                     <h3>The art of adding images in your UI designs</h3>
+                     <h3>Podcraft.app</h3>
                      <ul class="tags-list">
-                        <li>2 mins read</li>
-                        <li>UX/UI Design</li>
+                        <li>Listen smarter, not longer for all industries</li>
                      </ul>
                   </div>
                </div>
             </a>
-            <a href="https://medium.com/@designbyprateek/how-we-can-use-the-card-sorting-in-real-project-87256c07fb47" class="single-blog-link" data-reveal="true" target="_blank">
+            <a href="https://sharpely.in/" class="single-blog-link" data-reveal="true" target="_blank">
                <div class="blog_">
                   <figure>
-                     <img src="assets/images/blog/blog3.png">
+                     <img src="assets/images/blog/live3.png">
                      <figcaption class="text-center">
-                        <span class="tags_ small-upper gilroy-regular">Product Designing</span>
+                        <span class="tags_ small-upper gilroy-regular">Stock Market</span>
                      </figcaption>
                   </figure>
                   <div class="content text-center">
-                     <h3>How we can use the card sorting in real project?</h3>
+                     <h3>Sharpely.in</h3>
                      <ul class="tags-list">
-                        <li>3 mins read</li>
-                        <li>Product Designing</li>
+                        <li>Make better investing choices in stock markets</li>
                      </ul>
                   </div>
                </div>
@@ -57,7 +54,7 @@
             <div class="readmore-div" data-reveal="true">
                <a href="/blogs" class="has_union_ small_union">
                   <img src="assets/images/icons/read-all-bttn.svg">
-                  <span class="small-upper">Read All</span>
+                  <span class="small-upper">My Blogs</span>
                </a>
             </div>
          </div>

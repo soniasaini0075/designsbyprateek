@@ -17,6 +17,50 @@ body {
 	}
 }
 
+.banner-nav {
+	.buttons-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.link-cta {
+			a {
+				img {
+					rotate: 180deg;
+					margin-right: 8px;
+				}
+				span {
+					color: $white;
+					font-family: "gilroy-regular";
+					font-size: 14px;
+					line-height: 160%;
+				}
+			}
+			&.view-all {
+				a {
+					span {
+						font-family: "gilroy-bold";
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}
+
+.cta-link {
+	span {
+		color: $dark-blue;
+		font-family: "gilroy-bold";
+		font-size: 18px;
+		line-height: 140%;
+		text-transform: uppercase;
+	}
+	img {
+		margin-left: 8px;
+		width: 12px;
+	}
+}
+
 .bttn-primary {
 	background: $dark-blue;
 	border: 1px solid $dark-blue;
@@ -182,7 +226,6 @@ body {
 	contain: layout style size;
 	pointer-events: none;
 	transition: opacity .3s, color .4s;
-	// z-index: 0;
 	@include phone {
 		display: none;
 	}
